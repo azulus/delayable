@@ -1,7 +1,4 @@
-The PHP Delayable framework allows for delayed instantiation/retrieval of page content via proxy objects. Objects which implement the "Delayable" interface will have their method calls delayed until a render operation or blocking operation is called on them (a foreach or __toString call). Examples:
-
-------------------------------------------------------
-
+<?php
 /**
 CURL Example (example_curl.php):
 
